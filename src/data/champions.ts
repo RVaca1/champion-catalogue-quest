@@ -48,5 +48,53 @@ export const champions: Champion[] = [
     role: "Marksman",
     difficulty: 2,
     imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg"
+  },
+  {
+    id: "leona",
+    name: "Leona",
+    title: "the Radiant Dawn",
+    role: "Tank",
+    difficulty: 1,
+    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg"
+  },
+  {
+    id: "yasuo",
+    name: "Yasuo",
+    title: "the Unforgiven",
+    role: "Fighter",
+    difficulty: 3,
+    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg"
+  },
+  {
+    id: "kaisa",
+    name: "Kai'Sa",
+    title: "Daughter of the Void",
+    role: "Marksman",
+    difficulty: 2,
+    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kaisa_0.jpg"
+  },
+  {
+    id: "pyke",
+    name: "Pyke",
+    title: "the Bloodharbor Ripper",
+    role: "Support",
+    difficulty: 2,
+    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg"
+  },
+  {
+    id: "veigar",
+    name: "Veigar",
+    title: "the Tiny Master of Evil",
+    role: "Mage",
+    difficulty: 2,
+    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_0.jpg"
+  },
+  {
+    id: "katarina",
+    name: "Katarina",
+    title: "the Sinister Blade",
+    role: "Assassin",
+    difficulty: 3,
+    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg"
   }
 ];
