@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Champion } from "../types/champion";
 import { Card } from "./ui/card";
 
@@ -6,15 +7,32 @@ interface ChampionCardProps {
 }
 
 export const ChampionCard = ({ champion }: ChampionCardProps) => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
-    <Card className={`champion-card border-2 role-${champion.role.toLowerCase()}`}>
+    <Card 
+      className={`champion-card border-2 role-${champion.role.toLowerCase()}`}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       <div className="relative aspect-[16/9] overflow-hidden rounded-t-lg">
-        <img
-          src={champion.imageUrl}
-          alt={champion.name}
-          className="object-cover w-full h-full transform transition-transform duration-300 hover:scale-110"
-          loading="lazy"
-        />
+        {champion.videoUrl && isHovered ? (
+          <video
+            src={champion.videoUrl}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="object-cover w-full h-full"
+          />
+        ) : (
+          <img
+            src={champion.imageUrl}
+            alt={champion.name}
+            className="object-cover w-full h-full transform transition-transform duration-300 hover:scale-110"
+            loading="lazy"
+          />
+        )}
       </div>
       <div className="p-4">
         <div className="flex items-center justify-between mb-2">

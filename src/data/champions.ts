@@ -7,7 +7,8 @@ export const champions: Champion[] = [
     title: "the Nine-Tailed Fox",
     role: "Mage",
     difficulty: 2,
-    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg"
+    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+    videoUrl: "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_P1.webm"
   },
   {
     id: "darius",
@@ -15,7 +16,8 @@ export const champions: Champion[] = [
     title: "the Hand of Noxus",
     role: "Fighter",
     difficulty: 2,
-    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg"
+    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+    videoUrl: "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_P1.webm"
   },
   {
     id: "zed",
@@ -23,7 +25,8 @@ export const champions: Champion[] = [
     title: "the Master of Shadows",
     role: "Assassin",
     difficulty: 3,
-    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg"
+    imageUrl: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg",
+    videoUrl: "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0238/ability_0238_P1.webm"
   },
   {
     id: "lux",

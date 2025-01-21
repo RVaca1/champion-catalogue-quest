@@ -1,10 +1,11 @@
-export type ChampionRole = 'Fighter' | 'Mage' | 'Assassin' | 'Marksman' | 'Support' | 'Tank';
+export type ChampionRole = "Fighter" | "Mage" | "Assassin" | "Marksman" | "Support" | "Tank";
 
 export interface Champion {
   id: string;
   name: string;
   title: string;
   role: ChampionRole;
-  difficulty: number;
+  difficulty: 1 | 2 | 3;
   imageUrl: string;
+  videoUrl?: string;
 }
